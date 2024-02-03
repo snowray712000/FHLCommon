@@ -12,6 +12,28 @@
 		57BA21C22B6CB8A000E5638D /* FHLCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21C12B6CB8A000E5638D /* FHLCommonTests.swift */; };
 		57BA21C32B6CB8A000E5638D /* FHLCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 57BA21B52B6CB8A000E5638D /* FHLCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57BA21E42B6CBB5000E5638D /* SINQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21E32B6CBB5000E5638D /* SINQ.swift */; };
+		57BA21FB2B6CBF2000E5638D /* OwningEventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21EF2B6CBF2000E5638D /* OwningEventReference.swift */; };
+		57BA21FC2B6CBF2000E5638D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21F02B6CBF2000E5638D /* Event.swift */; };
+		57BA21FD2B6CBF2000E5638D /* ObservableChainingProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21F12B6CBF2000E5638D /* ObservableChainingProxy.swift */; };
+		57BA21FE2B6CBF2000E5638D /* ObservableProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21F22B6CBF2000E5638D /* ObservableProxy.swift */; };
+		57BA21FF2B6CBF2000E5638D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21F32B6CBF2000E5638D /* Protocols.swift */; };
+		57BA22002B6CBF2000E5638D /* TupleObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21F42B6CBF2000E5638D /* TupleObservable.swift */; };
+		57BA22012B6CBF2000E5638D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21F52B6CBF2000E5638D /* Observable.swift */; };
+		57BA22022B6CBF2000E5638D /* EventSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21F62B6CBF2000E5638D /* EventSubscription.swift */; };
+		57BA22032B6CBF2000E5638D /* EventReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21F72B6CBF2000E5638D /* EventReference.swift */; };
+		57BA22062B6CBF2000E5638D /* ObservableReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21FA2B6CBF2000E5638D /* ObservableReference.swift */; };
+		57BA22092B6CC1F000E5638D /* DText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22082B6CC1F000E5638D /* DText.swift */; };
+		57BA220B2B6CC23000E5638D /* DFoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA220A2B6CC23000E5638D /* DFoot.swift */; };
+		57BA22102B6CC24500E5638D /* DText_others.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA220C2B6CC24500E5638D /* DText_others.swift */; };
+		57BA22112B6CC24500E5638D /* DText_Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA220F2B6CC24500E5638D /* DText_Init.swift */; };
+		57BA22122B6CC24500E5638D /* DText_Clone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA220E2B6CC24500E5638D /* DText_Clone.swift */; };
+		57BA22132B6CC24500E5638D /* DText_IsTheSame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA220D2B6CC24500E5638D /* DText_IsTheSame.swift */; };
+		57BA22162B6CC51C00E5638D /* DText_To_AttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22152B6CC51C00E5638D /* DText_To_AttributedString.swift */; };
+		57BA22182B6CC56E00E5638D /* DTextDrawToAttributeString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22172B6CC56E00E5638D /* DTextDrawToAttributeString.swift */; };
+		57BA221A2B6CC7FA00E5638D /* EasyUIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22192B6CC7FA00E5638D /* EasyUIFont.swift */; };
+		57BA221C2B6CC82B00E5638D /* EasyStringAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA221B2B6CC82B00E5638D /* EasyStringAttributes.swift */; };
+		57BA221E2B6CC88300E5638D /* UIColor_Keywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA221D2B6CC88300E5638D /* UIColor_Keywords.swift */; };
+		57BA22212B6CE6AE00E5638D /* DAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22202B6CE6AE00E5638D /* DAddress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +53,28 @@
 		57BA21BC2B6CB8A000E5638D /* FHLCommonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FHLCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BA21C12B6CB8A000E5638D /* FHLCommonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHLCommonTests.swift; sourceTree = "<group>"; };
 		57BA21E32B6CBB5000E5638D /* SINQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SINQ.swift; sourceTree = "<group>"; };
+		57BA21EF2B6CBF2000E5638D /* OwningEventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwningEventReference.swift; sourceTree = "<group>"; };
+		57BA21F02B6CBF2000E5638D /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		57BA21F12B6CBF2000E5638D /* ObservableChainingProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableChainingProxy.swift; sourceTree = "<group>"; };
+		57BA21F22B6CBF2000E5638D /* ObservableProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableProxy.swift; sourceTree = "<group>"; };
+		57BA21F32B6CBF2000E5638D /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		57BA21F42B6CBF2000E5638D /* TupleObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleObservable.swift; sourceTree = "<group>"; };
+		57BA21F52B6CBF2000E5638D /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		57BA21F62B6CBF2000E5638D /* EventSubscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSubscription.swift; sourceTree = "<group>"; };
+		57BA21F72B6CBF2000E5638D /* EventReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventReference.swift; sourceTree = "<group>"; };
+		57BA21FA2B6CBF2000E5638D /* ObservableReference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableReference.swift; sourceTree = "<group>"; };
+		57BA22082B6CC1F000E5638D /* DText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DText.swift; sourceTree = "<group>"; };
+		57BA220A2B6CC23000E5638D /* DFoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFoot.swift; sourceTree = "<group>"; };
+		57BA220C2B6CC24500E5638D /* DText_others.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DText_others.swift; sourceTree = "<group>"; };
+		57BA220D2B6CC24500E5638D /* DText_IsTheSame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DText_IsTheSame.swift; sourceTree = "<group>"; };
+		57BA220E2B6CC24500E5638D /* DText_Clone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DText_Clone.swift; sourceTree = "<group>"; };
+		57BA220F2B6CC24500E5638D /* DText_Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DText_Init.swift; sourceTree = "<group>"; };
+		57BA22152B6CC51C00E5638D /* DText_To_AttributedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DText_To_AttributedString.swift; sourceTree = "<group>"; };
+		57BA22172B6CC56E00E5638D /* DTextDrawToAttributeString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTextDrawToAttributeString.swift; sourceTree = "<group>"; };
+		57BA22192B6CC7FA00E5638D /* EasyUIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyUIFont.swift; sourceTree = "<group>"; };
+		57BA221B2B6CC82B00E5638D /* EasyStringAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyStringAttributes.swift; sourceTree = "<group>"; };
+		57BA221D2B6CC88300E5638D /* UIColor_Keywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Keywords.swift; sourceTree = "<group>"; };
+		57BA22202B6CE6AE00E5638D /* DAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAddress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +117,10 @@
 		57BA21B42B6CB8A000E5638D /* FHLCommon */ = {
 			isa = PBXGroup;
 			children = (
+				57BA221F2B6CE69D00E5638D /* DAddress */,
+				57BA22142B6CC50000E5638D /* DText_To_AttributedString */,
+				57BA22072B6CC1CD00E5638D /* DText */,
+				57BA21EE2B6CBF2000E5638D /* Observable-Swift */,
 				57BA21E22B6CBB5000E5638D /* SINQ */,
 				57BA21B52B6CB8A000E5638D /* FHLCommon.h */,
 				57BA21B62B6CB8A000E5638D /* FHLCommon.docc */,
@@ -94,6 +142,56 @@
 				57BA21E32B6CBB5000E5638D /* SINQ.swift */,
 			);
 			path = SINQ;
+			sourceTree = "<group>";
+		};
+		57BA21EE2B6CBF2000E5638D /* Observable-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				57BA21EF2B6CBF2000E5638D /* OwningEventReference.swift */,
+				57BA21F02B6CBF2000E5638D /* Event.swift */,
+				57BA21F12B6CBF2000E5638D /* ObservableChainingProxy.swift */,
+				57BA21F22B6CBF2000E5638D /* ObservableProxy.swift */,
+				57BA21F32B6CBF2000E5638D /* Protocols.swift */,
+				57BA21F42B6CBF2000E5638D /* TupleObservable.swift */,
+				57BA21F52B6CBF2000E5638D /* Observable.swift */,
+				57BA21F62B6CBF2000E5638D /* EventSubscription.swift */,
+				57BA21F72B6CBF2000E5638D /* EventReference.swift */,
+				57BA21FA2B6CBF2000E5638D /* ObservableReference.swift */,
+			);
+			path = "Observable-Swift";
+			sourceTree = "<group>";
+		};
+		57BA22072B6CC1CD00E5638D /* DText */ = {
+			isa = PBXGroup;
+			children = (
+				57BA22082B6CC1F000E5638D /* DText.swift */,
+				57BA220A2B6CC23000E5638D /* DFoot.swift */,
+				57BA220F2B6CC24500E5638D /* DText_Init.swift */,
+				57BA220E2B6CC24500E5638D /* DText_Clone.swift */,
+				57BA220D2B6CC24500E5638D /* DText_IsTheSame.swift */,
+				57BA220C2B6CC24500E5638D /* DText_others.swift */,
+			);
+			path = DText;
+			sourceTree = "<group>";
+		};
+		57BA22142B6CC50000E5638D /* DText_To_AttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				57BA22152B6CC51C00E5638D /* DText_To_AttributedString.swift */,
+				57BA22172B6CC56E00E5638D /* DTextDrawToAttributeString.swift */,
+				57BA22192B6CC7FA00E5638D /* EasyUIFont.swift */,
+				57BA221B2B6CC82B00E5638D /* EasyStringAttributes.swift */,
+				57BA221D2B6CC88300E5638D /* UIColor_Keywords.swift */,
+			);
+			path = DText_To_AttributedString;
+			sourceTree = "<group>";
+		};
+		57BA221F2B6CE69D00E5638D /* DAddress */ = {
+			isa = PBXGroup;
+			children = (
+				57BA22202B6CE6AE00E5638D /* DAddress.swift */,
+			);
+			path = DAddress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +303,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BA21FC2B6CBF2000E5638D /* Event.swift in Sources */,
+				57BA221E2B6CC88300E5638D /* UIColor_Keywords.swift in Sources */,
+				57BA21FB2B6CBF2000E5638D /* OwningEventReference.swift in Sources */,
+				57BA22122B6CC24500E5638D /* DText_Clone.swift in Sources */,
+				57BA21FF2B6CBF2000E5638D /* Protocols.swift in Sources */,
 				57BA21E42B6CBB5000E5638D /* SINQ.swift in Sources */,
+				57BA220B2B6CC23000E5638D /* DFoot.swift in Sources */,
+				57BA22062B6CBF2000E5638D /* ObservableReference.swift in Sources */,
+				57BA22132B6CC24500E5638D /* DText_IsTheSame.swift in Sources */,
+				57BA22012B6CBF2000E5638D /* Observable.swift in Sources */,
+				57BA22112B6CC24500E5638D /* DText_Init.swift in Sources */,
+				57BA22162B6CC51C00E5638D /* DText_To_AttributedString.swift in Sources */,
+				57BA221A2B6CC7FA00E5638D /* EasyUIFont.swift in Sources */,
 				57BA21B72B6CB8A000E5638D /* FHLCommon.docc in Sources */,
+				57BA22182B6CC56E00E5638D /* DTextDrawToAttributeString.swift in Sources */,
+				57BA22092B6CC1F000E5638D /* DText.swift in Sources */,
+				57BA21FD2B6CBF2000E5638D /* ObservableChainingProxy.swift in Sources */,
+				57BA21FE2B6CBF2000E5638D /* ObservableProxy.swift in Sources */,
+				57BA22032B6CBF2000E5638D /* EventReference.swift in Sources */,
+				57BA22212B6CE6AE00E5638D /* DAddress.swift in Sources */,
+				57BA22002B6CBF2000E5638D /* TupleObservable.swift in Sources */,
+				57BA22102B6CC24500E5638D /* DText_others.swift in Sources */,
+				57BA221C2B6CC82B00E5638D /* EasyStringAttributes.swift in Sources */,
+				57BA22022B6CBF2000E5638D /* EventSubscription.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
