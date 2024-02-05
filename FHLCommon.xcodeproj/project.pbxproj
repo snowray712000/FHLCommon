@@ -34,6 +34,27 @@
 		57BA221C2B6CC82B00E5638D /* EasyStringAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA221B2B6CC82B00E5638D /* EasyStringAttributes.swift */; };
 		57BA221E2B6CC88300E5638D /* UIColor_Keywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA221D2B6CC88300E5638D /* UIColor_Keywords.swift */; };
 		57BA22212B6CE6AE00E5638D /* DAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22202B6CE6AE00E5638D /* DAddress.swift */; };
+		57BA22242B6DE6CE00E5638D /* DApiQsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22232B6DE6CE00E5638D /* DApiQsb.swift */; };
+		57BA22262B6DE6E400E5638D /* FhlJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22252B6DE6E400E5638D /* FhlJson.swift */; };
+		57BA22282B6DE71200E5638D /* fhlCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22272B6DE71200E5638D /* fhlCore.swift */; };
+		57BA22322B6DE75100E5638D /* DApiSd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22292B6DE75000E5638D /* DApiSd.swift */; };
+		57BA22332B6DE75100E5638D /* DApiQp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA222A2B6DE75100E5638D /* DApiQp.swift */; };
+		57BA22342B6DE75100E5638D /* DApiAu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA222B2B6DE75100E5638D /* DApiAu.swift */; };
+		57BA22352B6DE75100E5638D /* DApiSbdag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA222C2B6DE75100E5638D /* DApiSbdag.swift */; };
+		57BA22362B6DE75100E5638D /* DApiStwcbhdic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA222D2B6DE75100E5638D /* DApiStwcbhdic.swift */; };
+		57BA22372B6DE75100E5638D /* uiabv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA222E2B6DE75100E5638D /* uiabv.swift */; };
+		57BA22382B6DE75100E5638D /* DApiRt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA222F2B6DE75100E5638D /* DApiRt.swift */; };
+		57BA22392B6DE75100E5638D /* DApiSc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22302B6DE75100E5638D /* DApiSc.swift */; };
+		57BA223A2B6DE75100E5638D /* DApiSe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22312B6DE75100E5638D /* DApiSe.swift */; };
+		57BA223F2B6DEAC900E5638D /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA223C2B6DEAC900E5638D /* Regex.swift */; };
+		57BA22402B6DEAC900E5638D /* Date_fromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA223D2B6DEAC900E5638D /* Date_fromString.swift */; };
+		57BA22412B6DEAC900E5638D /* SplitByRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA223E2B6DEAC900E5638D /* SplitByRegex.swift */; };
+		57BA22442B70B89300E5638D /* BookName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22432B70B89300E5638D /* BookName.swift */; };
+		57BA22462B70BA1800E5638D /* get_bookname_via_tp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22452B70BA1800E5638D /* get_bookname_via_tp.swift */; };
+		57BA22482B70BA8800E5638D /* BookNameLang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22472B70BA8800E5638D /* BookNameLang.swift */; };
+		57BA224A2B70BC1F00E5638D /* BookName_To_Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA22492B70BC1F00E5638D /* BookName_To_Id.swift */; };
+		57BA224E2B70C8B000E5638D /* BookNameAndId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA224D2B70C8B000E5638D /* BookNameAndId.swift */; };
+		57BA22502B70C8E300E5638D /* BibleBookNameToId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA224F2B70C8E300E5638D /* BibleBookNameToId.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +96,27 @@
 		57BA221B2B6CC82B00E5638D /* EasyStringAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyStringAttributes.swift; sourceTree = "<group>"; };
 		57BA221D2B6CC88300E5638D /* UIColor_Keywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor_Keywords.swift; sourceTree = "<group>"; };
 		57BA22202B6CE6AE00E5638D /* DAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAddress.swift; sourceTree = "<group>"; };
+		57BA22232B6DE6CE00E5638D /* DApiQsb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiQsb.swift; sourceTree = "<group>"; };
+		57BA22252B6DE6E400E5638D /* FhlJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FhlJson.swift; sourceTree = "<group>"; };
+		57BA22272B6DE71200E5638D /* fhlCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fhlCore.swift; sourceTree = "<group>"; };
+		57BA22292B6DE75000E5638D /* DApiSd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiSd.swift; sourceTree = "<group>"; };
+		57BA222A2B6DE75100E5638D /* DApiQp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiQp.swift; sourceTree = "<group>"; };
+		57BA222B2B6DE75100E5638D /* DApiAu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiAu.swift; sourceTree = "<group>"; };
+		57BA222C2B6DE75100E5638D /* DApiSbdag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiSbdag.swift; sourceTree = "<group>"; };
+		57BA222D2B6DE75100E5638D /* DApiStwcbhdic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiStwcbhdic.swift; sourceTree = "<group>"; };
+		57BA222E2B6DE75100E5638D /* uiabv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiabv.swift; sourceTree = "<group>"; };
+		57BA222F2B6DE75100E5638D /* DApiRt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiRt.swift; sourceTree = "<group>"; };
+		57BA22302B6DE75100E5638D /* DApiSc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiSc.swift; sourceTree = "<group>"; };
+		57BA22312B6DE75100E5638D /* DApiSe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DApiSe.swift; sourceTree = "<group>"; };
+		57BA223C2B6DEAC900E5638D /* Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		57BA223D2B6DEAC900E5638D /* Date_fromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date_fromString.swift; sourceTree = "<group>"; };
+		57BA223E2B6DEAC900E5638D /* SplitByRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitByRegex.swift; sourceTree = "<group>"; };
+		57BA22432B70B89300E5638D /* BookName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookName.swift; sourceTree = "<group>"; };
+		57BA22452B70BA1800E5638D /* get_bookname_via_tp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = get_bookname_via_tp.swift; sourceTree = "<group>"; };
+		57BA22472B70BA8800E5638D /* BookNameLang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNameLang.swift; sourceTree = "<group>"; };
+		57BA22492B70BC1F00E5638D /* BookName_To_Id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookName_To_Id.swift; sourceTree = "<group>"; };
+		57BA224D2B70C8B000E5638D /* BookNameAndId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNameAndId.swift; sourceTree = "<group>"; };
+		57BA224F2B70C8E300E5638D /* BibleBookNameToId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleBookNameToId.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +159,9 @@
 		57BA21B42B6CB8A000E5638D /* FHLCommon */ = {
 			isa = PBXGroup;
 			children = (
+				57BA22422B70B87F00E5638D /* BookName */,
+				57BA223B2B6DEAAD00E5638D /* BasicString */,
+				57BA22222B6DE6AA00E5638D /* FHLApi */,
 				57BA221F2B6CE69D00E5638D /* DAddress */,
 				57BA22142B6CC50000E5638D /* DText_To_AttributedString */,
 				57BA22072B6CC1CD00E5638D /* DText */,
@@ -192,6 +237,64 @@
 				57BA22202B6CE6AE00E5638D /* DAddress.swift */,
 			);
 			path = DAddress;
+			sourceTree = "<group>";
+		};
+		57BA22222B6DE6AA00E5638D /* FHLApi */ = {
+			isa = PBXGroup;
+			children = (
+				57BA22272B6DE71200E5638D /* fhlCore.swift */,
+				57BA22252B6DE6E400E5638D /* FhlJson.swift */,
+				57BA22232B6DE6CE00E5638D /* DApiQsb.swift */,
+				57BA222C2B6DE75100E5638D /* DApiSbdag.swift */,
+				57BA222F2B6DE75100E5638D /* DApiRt.swift */,
+				57BA222E2B6DE75100E5638D /* uiabv.swift */,
+				57BA22292B6DE75000E5638D /* DApiSd.swift */,
+				57BA22302B6DE75100E5638D /* DApiSc.swift */,
+				57BA22312B6DE75100E5638D /* DApiSe.swift */,
+				57BA222D2B6DE75100E5638D /* DApiStwcbhdic.swift */,
+				57BA222A2B6DE75100E5638D /* DApiQp.swift */,
+				57BA222B2B6DE75100E5638D /* DApiAu.swift */,
+			);
+			path = FHLApi;
+			sourceTree = "<group>";
+		};
+		57BA223B2B6DEAAD00E5638D /* BasicString */ = {
+			isa = PBXGroup;
+			children = (
+				57BA223D2B6DEAC900E5638D /* Date_fromString.swift */,
+				57BA223E2B6DEAC900E5638D /* SplitByRegex.swift */,
+				57BA223C2B6DEAC900E5638D /* Regex.swift */,
+			);
+			path = BasicString;
+			sourceTree = "<group>";
+		};
+		57BA22422B70B87F00E5638D /* BookName */ = {
+			isa = PBXGroup;
+			children = (
+				57BA22432B70B89300E5638D /* BookName.swift */,
+				57BA224B2B70BFD700E5638D /* get_bookname_via_tp */,
+				57BA224C2B70C05400E5638D /* get_id_from_bookname */,
+			);
+			path = BookName;
+			sourceTree = "<group>";
+		};
+		57BA224B2B70BFD700E5638D /* get_bookname_via_tp */ = {
+			isa = PBXGroup;
+			children = (
+				57BA22452B70BA1800E5638D /* get_bookname_via_tp.swift */,
+				57BA22472B70BA8800E5638D /* BookNameLang.swift */,
+			);
+			path = get_bookname_via_tp;
+			sourceTree = "<group>";
+		};
+		57BA224C2B70C05400E5638D /* get_id_from_bookname */ = {
+			isa = PBXGroup;
+			children = (
+				57BA22492B70BC1F00E5638D /* BookName_To_Id.swift */,
+				57BA224D2B70C8B000E5638D /* BookNameAndId.swift */,
+				57BA224F2B70C8E300E5638D /* BibleBookNameToId.swift */,
+			);
+			path = get_id_from_bookname;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,30 +406,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57BA22392B6DE75100E5638D /* DApiSc.swift in Sources */,
 				57BA21FC2B6CBF2000E5638D /* Event.swift in Sources */,
 				57BA221E2B6CC88300E5638D /* UIColor_Keywords.swift in Sources */,
+				57BA22482B70BA8800E5638D /* BookNameLang.swift in Sources */,
+				57BA22332B6DE75100E5638D /* DApiQp.swift in Sources */,
+				57BA22352B6DE75100E5638D /* DApiSbdag.swift in Sources */,
+				57BA22442B70B89300E5638D /* BookName.swift in Sources */,
 				57BA21FB2B6CBF2000E5638D /* OwningEventReference.swift in Sources */,
+				57BA22402B6DEAC900E5638D /* Date_fromString.swift in Sources */,
 				57BA22122B6CC24500E5638D /* DText_Clone.swift in Sources */,
+				57BA224A2B70BC1F00E5638D /* BookName_To_Id.swift in Sources */,
+				57BA22412B6DEAC900E5638D /* SplitByRegex.swift in Sources */,
 				57BA21FF2B6CBF2000E5638D /* Protocols.swift in Sources */,
+				57BA22362B6DE75100E5638D /* DApiStwcbhdic.swift in Sources */,
 				57BA21E42B6CBB5000E5638D /* SINQ.swift in Sources */,
+				57BA22372B6DE75100E5638D /* uiabv.swift in Sources */,
 				57BA220B2B6CC23000E5638D /* DFoot.swift in Sources */,
 				57BA22062B6CBF2000E5638D /* ObservableReference.swift in Sources */,
+				57BA223A2B6DE75100E5638D /* DApiSe.swift in Sources */,
 				57BA22132B6CC24500E5638D /* DText_IsTheSame.swift in Sources */,
 				57BA22012B6CBF2000E5638D /* Observable.swift in Sources */,
+				57BA22242B6DE6CE00E5638D /* DApiQsb.swift in Sources */,
 				57BA22112B6CC24500E5638D /* DText_Init.swift in Sources */,
+				57BA22322B6DE75100E5638D /* DApiSd.swift in Sources */,
+				57BA22262B6DE6E400E5638D /* FhlJson.swift in Sources */,
 				57BA22162B6CC51C00E5638D /* DText_To_AttributedString.swift in Sources */,
 				57BA221A2B6CC7FA00E5638D /* EasyUIFont.swift in Sources */,
+				57BA22282B6DE71200E5638D /* fhlCore.swift in Sources */,
 				57BA21B72B6CB8A000E5638D /* FHLCommon.docc in Sources */,
 				57BA22182B6CC56E00E5638D /* DTextDrawToAttributeString.swift in Sources */,
 				57BA22092B6CC1F000E5638D /* DText.swift in Sources */,
+				57BA223F2B6DEAC900E5638D /* Regex.swift in Sources */,
 				57BA21FD2B6CBF2000E5638D /* ObservableChainingProxy.swift in Sources */,
+				57BA22382B6DE75100E5638D /* DApiRt.swift in Sources */,
+				57BA224E2B70C8B000E5638D /* BookNameAndId.swift in Sources */,
 				57BA21FE2B6CBF2000E5638D /* ObservableProxy.swift in Sources */,
 				57BA22032B6CBF2000E5638D /* EventReference.swift in Sources */,
+				57BA22502B70C8E300E5638D /* BibleBookNameToId.swift in Sources */,
 				57BA22212B6CE6AE00E5638D /* DAddress.swift in Sources */,
 				57BA22002B6CBF2000E5638D /* TupleObservable.swift in Sources */,
 				57BA22102B6CC24500E5638D /* DText_others.swift in Sources */,
+				57BA22462B70BA1800E5638D /* get_bookname_via_tp.swift in Sources */,
 				57BA221C2B6CC82B00E5638D /* EasyStringAttributes.swift in Sources */,
 				57BA22022B6CBF2000E5638D /* EventSubscription.swift in Sources */,
+				57BA22342B6DE75100E5638D /* DApiAu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
