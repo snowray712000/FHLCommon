@@ -1,8 +1,9 @@
 import Foundation
-class BibleBookNameToId {
+public class BibleBookNameToId {
+    public init(){}
     /// 若沒有找到，回傳 -1
     /// 已經優化過效率，是用 dictionary，並且作為 static 了。
-    func main1based(_ tp: BookNameLang,_ str: String)-> Int {
+    public func main1based(_ tp: BookNameLang,_ str: String)-> Int {
         var r1 = Self.dicts[tp]
         if r1 == nil {
             r1 = generateOneDict(tp)

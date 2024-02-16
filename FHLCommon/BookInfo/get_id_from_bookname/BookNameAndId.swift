@@ -3,25 +3,25 @@ import Foundation
 /**
  開發 StringToVerseRange 時要用到
  */
-class BookNameAndId {
+public class BookNameAndId {
     private typealias c = BookNameAndId
   /** matt:40, mt:40, 太:40, lower case, 1-based */
     private static var mapsNa2Id: [String: Int]?;
   // private static var mapsNa2Id: Map<String, Int>?;
   /** */
     private static var namesOrderByNameLength: [String]?;
-    init() {
+    public init() {
         if (c.mapsNa2Id == nil) {
             self.generate();
         }
     }
   
-    func getIdOrUndefined(_ nameLowcase: String)-> Int? {
+    public func getIdOrUndefined(_ nameLowcase: String)-> Int? {
         return c.mapsNa2Id![nameLowcase]
     }
  
     /** ["second thessalonians","first thessalonians",..."太"] */
-    func getNamesOrderByNameLength()-> [String] {
+    public func getNamesOrderByNameLength()-> [String] {
         return c.namesOrderByNameLength!;
     }
   
