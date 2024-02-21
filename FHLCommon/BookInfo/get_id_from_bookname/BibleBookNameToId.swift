@@ -3,14 +3,14 @@ public class BibleBookNameToId {
     public init(){}
     /// 若沒有找到，回傳 -1
     /// 已經優化過效率，是用 dictionary，並且作為 static 了。
-    public func main1based(_ tp: BookNameLang,_ str: String)-> Int {
+    public func main1based(_ tp: BookNameLang,_ strLowerCased: String)-> Int {
         var r1 = Self.dicts[tp]
         if r1 == nil {
             r1 = generateOneDict(tp)
             Self.dicts[tp] = r1!
         }
         
-        let r2 = r1![str]
+        let r2 = r1![strLowerCased]
         return r2 != nil ? r2! : -1
         
         //let r1 =  BibleBookNames.getBookNames(tp)
@@ -26,6 +26,7 @@ public class BibleBookNameToId {
         var re: OneDict = [:]
         for (i,a2) in r2.enumerated() {
             re[a2] = i + 1 // 1-based
+            re[a2.lowercased()] = i + 1
         }
         return re
     }
