@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		573212192B9EDBA9006100CF /* VerseRangeGoNextChap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573212182B9EDBA9006100CF /* VerseRangeGoNextChap.swift */; };
 		57BA21B72B6CB8A000E5638D /* FHLCommon.docc in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21B62B6CB8A000E5638D /* FHLCommon.docc */; };
 		57BA21BD2B6CB8A000E5638D /* FHLCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA21B22B6CB8A000E5638D /* FHLCommon.framework */; };
 		57BA21C22B6CB8A000E5638D /* FHLCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BA21C12B6CB8A000E5638D /* FHLCommonTests.swift */; };
@@ -118,6 +119,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		573212182B9EDBA9006100CF /* VerseRangeGoNextChap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseRangeGoNextChap.swift; sourceTree = "<group>"; };
 		57BA21B22B6CB8A000E5638D /* FHLCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FHLCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BA21B52B6CB8A000E5638D /* FHLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHLCommon.h; sourceTree = "<group>"; };
 		57BA21B62B6CB8A000E5638D /* FHLCommon.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FHLCommon.docc; sourceTree = "<group>"; };
@@ -238,6 +240,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		573212172B9EDB9E006100CF /* VerseRangeGoNextChap */ = {
+			isa = PBXGroup;
+			children = (
+				573212182B9EDBA9006100CF /* VerseRangeGoNextChap.swift */,
+			);
+			path = VerseRangeGoNextChap;
+			sourceTree = "<group>";
+		};
 		57BA21A82B6CB8A000E5638D = {
 			isa = PBXGroup;
 			children = (
@@ -344,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				57BA22922B7F6C2D00E5638D /* StringToVerseRange */,
+				573212172B9EDB9E006100CF /* VerseRangeGoNextChap */,
 				57BA22202B6CE6AE00E5638D /* DAddress.swift */,
 				57BA22872B7DB78C00E5638D /* generateEntireThisChap.swift */,
 				57BA22892B7E21B200E5638D /* VerseRangeToString.swift */,
@@ -686,6 +697,7 @@
 				57BA22B02B7FD13200E5638D /* SSReference.swift in Sources */,
 				57BA22942B7F6C5D00E5638D /* SmartDescriptEndParsing.swift in Sources */,
 				57BA22242B6DE6CE00E5638D /* DApiQsb.swift in Sources */,
+				573212192B9EDBA9006100CF /* VerseRangeGoNextChap.swift in Sources */,
 				57BA22112B6CC24500E5638D /* DText_Init.swift in Sources */,
 				57BA22322B6DE75100E5638D /* DApiSd.swift in Sources */,
 				57BA22C32B7FD20700E5638D /* doSSDTextCore.swift in Sources */,
