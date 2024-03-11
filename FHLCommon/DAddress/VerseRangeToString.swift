@@ -15,7 +15,7 @@ public class VerseRangeToString {
     }
     private func getDescriptionEachBook(_ arg: [[[DAddress]]],_ lang: BookNameLang)-> String {
         let id = arg[0][0][0].book;
-        let na = get_booknames_via_tp(tp: lang)[id] // let na = BibleBookNames.getBookName(id, lang);        
+        let na = get_booknames_via_tp(tp: lang)[id-1] // let na = BibleBookNames.getBookName(id, lang);        
         let des = arg.map({ (a1:[[DAddress]]) in
           // a1 可能是 1:23,25-27,30,32-42 (a1.length===4)
           // a1 可能是 1:23-25 (a1.length===1) (a1[0].length>1 && a1[0].first().chap == a1[0].last().chap)
