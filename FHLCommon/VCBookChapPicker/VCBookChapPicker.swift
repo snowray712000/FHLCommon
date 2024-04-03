@@ -131,9 +131,22 @@ public class VCBookChapPicker : UIViewController {
             }
         }
         
+        setButtonFonSize()
+        
         updateBtnOptColor()
         
         switchToChap()
+    }
+    func setButtonFonSize(){
+        // 使用 fontMetrics 可隨系統設定的大小縮放
+        let fontMetrics = UIFontMetrics(forTextStyle: .body)
+        let customFont = UIFont.systemFont(ofSize: 18.0)
+        let scaledFont = fontMetrics.scaledFont(for: customFont)
+        
+        for a1 in btnOpts{
+            a1.titleLabel?.font = scaledFont
+        }
+        btnFullname.titleLabel?.font = scaledFont
     }
     private func updateBtnOptColor(){
         self.btnOpts.forEach { btn in

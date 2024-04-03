@@ -120,6 +120,7 @@
 
 /* Begin PBXFileReference section */
 		573212182B9EDBA9006100CF /* VerseRangeGoNextChap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseRangeGoNextChap.swift; sourceTree = "<group>"; };
+		575C7ED62BBB0F7500B0564E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		57BA21B22B6CB8A000E5638D /* FHLCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FHLCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BA21B52B6CB8A000E5638D /* FHLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHLCommon.h; sourceTree = "<group>"; };
 		57BA21B62B6CB8A000E5638D /* FHLCommon.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FHLCommon.docc; sourceTree = "<group>"; };
@@ -288,6 +289,7 @@
 				57BA21E22B6CBB5000E5638D /* SINQ */,
 				57BA21B52B6CB8A000E5638D /* FHLCommon.h */,
 				57BA21B62B6CB8A000E5638D /* FHLCommon.docc */,
+				575C7ED62BBB0F7500B0564E /* PrivacyInfo.xcprivacy */,
 			);
 			path = FHLCommon;
 			sourceTree = "<group>";

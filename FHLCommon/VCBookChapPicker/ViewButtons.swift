@@ -112,12 +112,25 @@ class ViewButtons : ViewFromXibBase, UICollectionViewDataSource {
             btn.setTitleColor(.systemBlue, for: .normal)
         }
         
+        // 設定按鈕標題的字型和大小
+        setButtonFontSize(btn: btn)
         
         return cell
     }
+    func setButtonFontSize(btn: UIButton){
+        // 設定這個，才會隨系統字型大小而改變。
+        let fontMetrics = UIFontMetrics(forTextStyle: .body)
+        let customFont = UIFont.systemFont(ofSize: 18.0)
+        let scaledFont = fontMetrics.scaledFont(for: customFont)
+        btn.titleLabel?.font = scaledFont
+    }
     private func gBtn(_ idx: Int)->InfoButton {
         let r1 = InfoButton()
-        // r1.backgroundColor = .lightGray debug 
+        
+        // 設定按鈕標題的字型和大小
+        setButtonFontSize(btn: r1)
+        
+        // r1.backgroundColor = .lightGray debug
         r1.contentEdgeInsets.top = 3
         r1.contentEdgeInsets.bottom = 3
         r1.contentEdgeInsets.left = 3
